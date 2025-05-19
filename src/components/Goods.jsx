@@ -3,8 +3,8 @@ const GOODS = ["New Arrivals", "#Fresh", "Dresses", "Tops", "Jackets", "Lingerie
 export default function Goods() {
     return (
         <>
-            <ul className="flex space-x-3">
-                {GOODS.map((item)=><li key={item}>{item}</li>)}
+            <ul className="flex py-5 space-x-3 overflow-x-auto">
+                {GOODS.map((item)=><li className="p-1 text-sm font-semibold cursor-pointer rounded whitespace-nowrap hover:bg-red-400 hover:text-white" key={item}>{item}</li>)}
             </ul>
         </>
     )
