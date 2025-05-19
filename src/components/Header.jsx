@@ -15,9 +15,9 @@ export default function Header() {
         <input type="text" placeholder="Search for an item..." className="w-70 pl-8 py-1 text-base border-b-1 border-gray-400 focus:border-blue-500 outline-none transition-colors" />
       </div>
       <ul className="flex space-x-4">
-          {HEADER_LIST.map((item)=><li className="text-base hover:text-blue-500" key={item}>{item}</li>)}
+          {HEADER_LIST.map((item)=><li className="text-base font-medium text-grey-main hover:text-grey-dark hover:font-semibold" key={item}>{item}</li>)}
       </ul>
-      <CiShoppingBasket className="h-6 w-6"/>
+      <CiShoppingBasket className="h-6 w-6 ml-0.5"/>
     </header>
   )
 }
