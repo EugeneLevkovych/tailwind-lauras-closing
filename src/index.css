@@ -4,6 +4,8 @@
 @theme {
   --color-white: #fff;
   --color-white-dark: #fafafa;
-  --color-grey-main: #6b7280;
-  --color-grey-dark: #1f2937;
+  --color-gray-main: #6b7280;
+  --color-gray-dark: #1f2937;
+
+  --my-break-xl: 1296px;
 }
