@@ -1,5 +1,9 @@
+import Filters from "./Filters";
+
 export default function SideBar() {
     return (
-        <div></div>
+        <div>
+            <Filters />
+        </div>
     )
 }
