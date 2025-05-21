@@ -6,7 +6,7 @@ export default function Main() {
     return (
     <>
     <Sort />
-    <div className="flex container mx-auto px-4">
+    <div className="flex container mx-auto px-4 bg-green-700">
     <SideBar />
     <Cards />
     </div>
