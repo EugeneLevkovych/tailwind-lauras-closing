@@ -25,9 +25,13 @@
 @theme {
   --color-white: #fff;
   --color-white-dark: #fafafa;
+  --color-gray-lighter: #9ca3af;
   --color-gray-main: #6b7280;
-  --color-gray-light: #4b5563;
+  --color-gray-darker: #4b5563;
   --color-gray-dark: #1f2937;
+  --color-price-black: #374151;
+  
+
 
   /* --my-break-xl: 1296px; */
    --breakpoint-7xl: 1296px;
