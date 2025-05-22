@@ -4,6 +4,9 @@ import girl3 from "../assets/girl-3.jpg";
 import girl4 from "../assets/girl-4.jpg";
 import girl5 from "../assets/girl-5.jpg";
 import girl6 from "../assets/girl-6.jpg";
+import girl7 from "../assets/girl-7.jpg";
+import girl8 from "../assets/girl-8.jpg";
+import girl9 from "../assets/girl-9.jpg";
 
 export const PRODUCTS_DATA = [
     {
@@ -42,13 +45,31 @@ export const PRODUCTS_DATA = [
         id: 6,
         photoName: girl6,
     },
+         {
+        name: "Striped Flutter Hem Blouse",
+        price: "$ 79.99",
+        id: 7,
+        photoName: girl7,
+    },
+         {
+        name: "Striped Flutter Peplum Hem Blouse",
+        price: "$ 79.99",
+        id: 8,
+        photoName: girl8,
+    },
+         {
+        name: "Striped Flutter Peplum Hem Blouse",
+        price: "$ 79.99",
+        id: 9,
+        photoName: girl9,
+    },
+
 ]
 
 export default function Card({ productObj }) {
   
     return (
-        // <li className="w-[calc((100%-40px)/2)]">
-        <li className="w-2xs h-80 mx-2">
+        <li className="h-80 w-[calc((100%-40px)/3)] border border-solid">
             <img className="h-full w-full" src={productObj.photoName} alt="Girl" />
             <p>{productObj.name}</p>
             <p>{productObj.price}</p>
