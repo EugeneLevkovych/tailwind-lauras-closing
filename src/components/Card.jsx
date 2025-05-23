@@ -1,73 +1,4 @@
-import girl1 from "../assets/girl-1.png";
-import girl2 from "../assets/girl-2.jpg";
-import girl3 from "../assets/girl-3.jpg";
-import girl4 from "../assets/girl-4.jpg";
-import girl5 from "../assets/girl-5.jpg";
-import girl6 from "../assets/girl-6.jpg";
-import girl7 from "../assets/girl-7.jpg";
-import girl8 from "../assets/girl-8.jpg";
-import girl9 from "../assets/girl-9.jpg";
-
-export const PRODUCTS_DATA = [
-    {
-        name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-        price: "$ 120.23",
-        id: 1,
-        photoName: girl1,
-    },
-        {
-        name: "Striped Flutter Peplum Hem Blouse",
-        price: "$ 59.99",
-        id: 2,
-        photoName: girl2,
-    },
-        {
-        name: "Striped Flutter Peplum Hem Blouse",
-        price: "$ 79.99",
-        id: 3,
-        photoName: girl3,
-    },
-        {
-        name: "Striped Flutter Peplum Hem Blouse",
-        price: "$ 79.99",
-        id: 4,
-        photoName: girl4,
-    },
-           {
-        name: "Striped Flutter Peplum Hem Blouse",
-        price: "$ 79.99",
-        id: 5,
-        photoName: girl5,
-    },
-          {
-        name: "Striped Flutter Peplum Hem Blouse",
-        price: "$ 79.99",
-        id: 6,
-        photoName: girl6,
-    },
-         {
-        name: "Striped Flutter Hem Blouse",
-        price: "$ 79.99",
-        id: 7,
-        photoName: girl7,
-    },
-         {
-        name: "Striped Flutter Peplum Hem Blouse",
-        price: "$ 79.99",
-        id: 8,
-        photoName: girl8,
-    },
-         {
-        name: "Striped Flutter Peplum Hem Blouse",
-        price: "$ 79.99",
-        id: 9,
-        photoName: girl9,
-    },
-
-]
-
 export default function Card({ productObj }) {
-  
     return (
     <li className="h-[30.7rem] w-[calc((100%-40px)/3)] border border-solid">
         <img className="h-2/3 w-full" src={productObj.photoName} alt="Girl" />
@@ -78,12 +9,12 @@ export default function Card({ productObj }) {
                <p className="text-lg font-semibold text-price-black">{productObj.price}</p>
                <p className="text-lg font-semibold line-through text-gray-lighter">{productObj.price}</p>
             </div>
-            <div>
+            <div className="flex flex-col">
                <p className="text-gray-darker">24 otders</p>
+               <p className="text-xs bg-back-arrivals-black text-white px-3">New Arrivals</p>
             </div>
           </div>
-         </div>
-        
+         </div>  
     </li>
     )
 }

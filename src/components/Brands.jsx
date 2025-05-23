@@ -1,52 +1,45 @@
+import Checkbox from "./Checkbox";
+import { useState } from "react";
+
 export default function Brands() {
+  const [filterChecks, setFilterChecks] = useState({
+    hm: false,
+    mark_spencer: false,
+    victorias_secret: false,
+    dior: false,
+    gucci: false,
+    fendi: false,
+    prada: false,
+    versaci: false,
+    dolce_gabbana: false,
+    zara: false,
+    shanel: false,
+  });
+
+
+    const handleFilterChange = (event) => {
+    const { name, checked } = event.target;
+    setFilterChecks(prevState => ({
+      ...prevState,
+      [name]: checked,
+    }));
+  };
+
     return (
 <div className="mb-6">
     <p className="font-semibold mb-5">Brands</p>
     <form className="flex flex-col gap-y-3.5 text-sm">
-        <div className="flex gap-2">
-           <input type="checkbox" name="h-m" value="" id="h-m-id" />
-           <label htmlFor="h-m-id">H&M</label>
-       </div>
-       <div className="flex gap-2">
-           <input type="checkbox" name="mark-spencer" value="" id="mark-spencer-id" />
-           <label htmlFor="mark-spencer-id">Mark & Spencer</label>
-       </div>
-       <div className="flex gap-2">
-           <input type="checkbox" name="victorias-secret" value="" id="victorias-secret-id"/>
-           <label htmlFor="victorias-secret-id">Victoria’s Secret</label>
-       </div>
-        <div className="flex gap-2">
-           <input type="checkbox" name="dior" value="" id="dior-id"/>
-           <label htmlFor="dior-id">Dior</label>
-       </div>
-        <div className="flex gap-2">
-           <input type="checkbox" name="gucci" value="" id="gucci-id"/>
-           <label htmlFor="gucci-id">Gucci</label>
-       </div>
-        <div className="flex gap-2">
-           <input type="checkbox" name="fendi" value="" id="fendi-id"/>
-           <label htmlFor="fendi-id">Fendi</label>
-       </div>
-        <div className="flex gap-2">
-           <input type="checkbox" name="prada" value="" id="prada-id"/>
-           <label htmlFor="prada-id">Prada</label>
-       </div>
-        <div className="flex gap-2">
-           <input type="checkbox" name="versace" value="" id="versace-id"/>
-           <label htmlFor="versace-id">Versace</label>
-       </div>
-        <div className="flex gap-2">
-           <input type="checkbox" name="dolce-gabbana" value="" id="dolce-gabbana-id"/>
-           <label htmlFor="dolce-gabbana-id">Dolce & Gabbana</label>
-       </div>
-        <div className="flex gap-2">
-           <input type="checkbox" name="zara" value="" id="zara-id"/>
-           <label htmlFor="zara-id">Zara</label>
-       </div>
-        <div className="flex gap-2">
-           <input type="checkbox" name="chanel" value="" id="chanel-id"/>
-           <label htmlFor="chanel-id">Chanel</label>
-       </div>
+       <Checkbox name={'hm'} id={'hm-id'} label={'H&M'} checked={filterChecks.hm} onChange={handleFilterChange} />
+       <Checkbox name={'mark_spencer'} id={'mark_spencer-id'} label={'Mark & Spencer'} checked={filterChecks.mark_spencer} onChange={handleFilterChange} />
+       <Checkbox name={'victorias_secret'} id={'victorias_secret-id'} label={'Victoria’s Secret'} checked={filterChecks.victorias_secret} onChange={handleFilterChange} />
+       <Checkbox name={'dior'} id={'dior-id'} label={'Dior'} checked={filterChecks.dior} onChange={handleFilterChange} />
+       <Checkbox name={'gucci'} id={'gucci-id'} label={'Gucci'} checked={filterChecks.gucci} onChange={handleFilterChange} />
+       <Checkbox name={'fendi'} id={'fendi-id'} label={'Fendi'} checked={filterChecks.fendi} onChange={handleFilterChange} />
+       <Checkbox name={'prada'} id={'prada-id'} label={'Prada'} checked={filterChecks.prada} onChange={handleFilterChange} />
+       <Checkbox name={'versaci'} id={'versaci-id'} label={'Versaci'} checked={filterChecks.versaci} onChange={handleFilterChange} />
+       <Checkbox name={'dolce_gabbana'} id={'dolce_gabbana-id'} label={'Dolce & Gabbana'} checked={filterChecks.dolce_gabbana} onChange={handleFilterChange} />
+       <Checkbox name={'zara'} id={'zara-id'} label={'Zara'} checked={filterChecks.zara} onChange={handleFilterChange} />
+       <Checkbox name={'shanel'} id={'shanel-id'} label={'Shanel'} checked={filterChecks.shanel} onChange={handleFilterChange} />   
        <p className="text-red-500">+234more</p>
     </form>
 </div>    

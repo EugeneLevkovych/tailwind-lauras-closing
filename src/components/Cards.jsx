@@ -1,5 +1,5 @@
 import Card from "./Card";
-import { PRODUCTS_DATA } from "./Card";
+import { PRODUCTS_DATA } from "../data";
 
 export default function Cards() {
 const products = PRODUCTS_DATA;
