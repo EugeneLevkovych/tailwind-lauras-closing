@@ -13,7 +13,7 @@ export default function Header() {
         <div className="absolute bottom-2 left-0">
           <FaMagnifyingGlass className="text-gray-400"/>
         </div>
-        <input type="text" id="search" placeholder="Search for an item..." className="w-70 pl-8 py-1 text-base border-b-1 border-gray-400 focus:border-blue-500 outline-none transition-colors" />
+        <input type="text" id="search" placeholder="Search for an item..." className="w-70 pl-8 py-1 text-base border-b-1 border-gray-400 focus:border-red-light outline-none transition-colors" />
       </div>
       <ul className="flex space-x-4">
           {HEADER_LIST.map((item)=><li className="text-base font-medium text-gray-main hover:text-gray-dark hover:font-semibold" key={item}>{item}</li>)}
