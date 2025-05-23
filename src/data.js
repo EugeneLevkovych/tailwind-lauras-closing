@@ -65,14 +65,6 @@ export const PRODUCTS_DATA = [
     },
 ]
 
-export const GROUP_TITLES = [
-    "FILTERS", "BRANDS", "CATEGORIES", "SIZE"
-]
 
-export const FILTERS_NAMES = [
-    "Women", "Ladies", "Girls", "Babies"
-]
 
-export const BRANDS_NAMES = [
-    "H&M", "Mark & Spencer", "Victoria’s Secret", "Dior",  "Gucci", "Fendi", "Prada", "Versace", "Dolce & Gabbana", "Zara", "Chanel"
-]
+
