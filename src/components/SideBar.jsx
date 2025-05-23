@@ -12,7 +12,7 @@ const titles = GROUP_TITLES;
 
     return (
         <div className="max-w-84 w-full px-6 py-10 bg-white-dark">
-            <PricesRange />
+           <PricesRange />
            <Filters />
            <Brands />
            <Categories />
