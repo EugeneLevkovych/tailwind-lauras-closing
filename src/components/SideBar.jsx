@@ -1,9 +1,9 @@
 import { GROUP_TITLES } from "../data";
 import Brands from "./Brands";
-// import Categories from "./Categories";
+import Categories from "./Categories";
 import Filters from "./Filters";
 import PricesRange from "./PricesRange";
-// import Size from "./Size";
+import Size from "./Size";
 
 
 export default function SideBar() {
@@ -15,8 +15,8 @@ const titles = GROUP_TITLES;
             <PricesRange />
            <Filters />
            <Brands />
-           {/* <Categories /> */}
-           {/* <Size /> */}
+           <Categories />
+           <Size />
         </div>
     )
 }
