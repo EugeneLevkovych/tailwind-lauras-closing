@@ -3,8 +3,8 @@
 export default function Card({ productObj }) {
     return (
     <li className="relative h-[30.7rem] w-full sm:w-[calc((100%-20px)/2)] xl:w-[calc((100%-40px)/3)] border border-solid">
-     <div className="absolute top-4 right-4">
-       <svg className="stroke-gray1 fill-transparent h-8 w-8">
+     <div className="flex justify-center items-center absolute top-4 right-4 size-12 bg-black/30">
+       <svg className="stroke-white fill-transparent size-6">
           <use href="./sprite.svg#icon-heart"></use>
        </svg>
      </div>

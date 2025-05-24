@@ -19,7 +19,34 @@
   --color-gray1: #1f2937;
   --color-price-black: #374151;
   --color-back-arrivals-black: #111827;
-  
-  --color-red-light: #eb5757;
-  
+  --color-red-light: #eb5757; 
 }
+
+
+@font-face {
+  font-family: 'Euclid Circular A';
+  src: url('/fonts/EuclidCircularA-Regular.ttf') format('ttf');
+  font-weight: 400; /* Regular */
+  font-style: normal;
+  font-display: swap; 
+}
+
+@font-face {
+  font-family: 'Euclid Circular A';
+  src: url('/fonts/EuclidCircularA-Medium.ttf') format('ttf');
+  font-weight: 500; /* Medium */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Euclid Circular A';
+  src: url('/fonts/EuclidCircularA-Bold.ttf') format('ttf');
+  font-weight: 700; /* Bold */
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  font-family: "Euclid Circular A", sans-serif;
+}
+
