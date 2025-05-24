@@ -5,7 +5,7 @@ import { FaMagnifyingGlass } from "react-icons/fa6";
 export default function Header() {
   return (
     <header className="bg-white-dark">
-      <div className="flex items-center py-7 container mx-auto px-4">
+      <div className="md:flex items-center py-7 container mx-auto px-4">
       <a href="#">
         <h1 className="text-2xl" >Laura’s Closet</h1>
       </a>

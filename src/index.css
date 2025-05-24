@@ -9,15 +9,17 @@
 
 
 @theme {
+  --color-white1: #f9fafb;
   --color-white: #fff;
   --color-white-dark: #fafafa;
   --color-gray-lightest: #d1d5db;
   --color-gray-lighter: #9ca3af;
   --color-gray-main: #6b7280;
   --color-gray-darker: #4b5563;
-  --color-gray-darkest: #1f2937;
+  --color-gray1: #1f2937;
   --color-price-black: #374151;
   --color-back-arrivals-black: #111827;
-  --color-red-light:  #eb5757;
+  
+  --color-red-light: #eb5757;
   
 }
