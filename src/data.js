@@ -67,6 +67,7 @@ export const PRODUCTS_DATA = [
 
 export const GOODS = ["New Arrivals", "#Fresh", "Dresses", "Tops", "Jackets", "Lingerie & Lounge Wear", "Beach Wear", "Blouse", "Denim", "Vintage", "Shoes", "Sandals", "Bags", "Jevelries"];
 
+export const STORE_LIST_DATA = ["Store", "Account", "Wish List", "Basket"];
 
 
 
