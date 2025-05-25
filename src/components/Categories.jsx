@@ -28,7 +28,7 @@ const [filterChecks, setFilterChecks] = useState({
           <Checkbox name={'lingerie_lounge_wear'} id={'lingerie_lounge_wear-id'} label={'Lingerie & Lounge Wear'} checked={filterChecks.lingerie_lounge_wear} onChange={handleFilterChange} />  
           <Checkbox name={'blouse'} id={'blouse-id'} label={'Blouse'} checked={filterChecks.blouse} onChange={handleFilterChange} />  
           <Checkbox name={'vintage'} id={'vintage-id'} label={'Vintage'} checked={filterChecks.vintage} onChange={handleFilterChange} />  
-       <p className="text-red-light">+4more</p>
+       <p className="pl-[2.1rem] text-red-light">+4more</p>
     </form>
 </div>
     )

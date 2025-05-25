@@ -40,7 +40,7 @@ export default function Brands() {
        <Checkbox name={'dolce_gabbana'} id={'dolce_gabbana-id'} label={'Dolce & Gabbana'} checked={filterChecks.dolce_gabbana} onChange={handleFilterChange} />
        <Checkbox name={'zara'} id={'zara-id'} label={'Zara'} checked={filterChecks.zara} onChange={handleFilterChange} />
        <Checkbox name={'shanel'} id={'shanel-id'} label={'Shanel'} checked={filterChecks.shanel} onChange={handleFilterChange} />   
-       <p className="text-red-light">+234more</p>
+       <p className="pl-[2.1rem] text-red-light">+234more</p>
     </form>
 </div>    
     ) }

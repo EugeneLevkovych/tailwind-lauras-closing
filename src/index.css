@@ -10,7 +10,7 @@
 
 @theme {
   --color-white1: #f9fafb;
-  --color-white: #fff;
+  --color-white2: #fff;
   --color-white-dark: #fafafa;
   --color-gray-lightest: #d1d5db;
   --color-gray-lighter: #9ca3af;
@@ -19,7 +19,8 @@
   --color-gray1: #1f2937;
   --color-black1: #374151;
   --color-back-arrivals-black: #111827;
-  --color-red-light: #eb5757; 
+  --color-red-light: #eb5757;
+  --color-blue1: #0f4fce; 
 }
 
 

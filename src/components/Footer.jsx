@@ -6,7 +6,7 @@ import WeAccept from "./WeAccept";
 export default function Footer() {
     return (
 <div className="py-16.5 bg-white-dark">
-    <div className="flex container mx-auto px-4">
+    <div className="flex gap-40 container mx-auto px-4">
         <div>
           <CompanyInfo />
         </div>
