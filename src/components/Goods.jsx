@@ -1,4 +1,4 @@
-const GOODS = ["New Arrivals", "#Fresh", "Dresses", "Tops", "Jackets", "Lingerie & Lounge Wear", "Beach Wear", "Blouse", "Denim", "Vintage", "Shoes", "Sandals", "Bags", "Jevelries"];
+import { GOODS } from "../data";
 
 export default function Goods() {
     return (

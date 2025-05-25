@@ -1,41 +1,42 @@
 export default function CompanyInfo() {
     return (
-        <>
-    <div className="flex gap-14">  
+        <div className="mb-auto">
+    <div className="flex gap-14 max-w-[36.25rem] w-full mb-28">  
         <div>
-            <h3>Company info</h3>
-            <p>About Laura’s Closet</p>
-            <p>Social Responsibility</p>
-            <p>Affiliate</p>
-            <p>Fashion Blogger</p>
+            <h3 className="text-sm font-semibold tracking-wide uppercase text-black1 pb-4">Company info</h3>
+            <p className="font-sm font-medium tracking-wider text-gray-main space-y-2">About Laura’s Closet</p>
+            <p className="font-sm font-medium tracking-wider text-gray-main space-y-2">Social Responsibility</p>
+            <p className="font-sm font-medium tracking-wider text-gray-main space-y-2">Affiliate</p>
+            <p className="font-sm font-medium tracking-wider text-gray-main space-y-2">Fashion Blogger</p>
         </div>
          <div>
-            <h3>Company info</h3>
-            <p>About Laura’s Closet</p>
-            <p>Social Responsibility</p>
-            <p>Affiliate</p>
-            <p>Fashion Blogger</p>
+            <h3 className="text-sm font-semibold tracking-wide uppercase text-black1 pb-4">HElp & Support</h3>
+            <p className="font-sm font-medium tracking-wider text-gray-main space-y-2">Shipping Info</p>
+            <p className="font-sm font-medium tracking-wider text-gray-main space-y-2">Returns</p>
+            <p className="font-sm font-medium tracking-wider text-gray-main space-y-2">How to Order</p>
+            <p className="font-sm font-medium tracking-wider text-gray-main space-y-2">How to Track</p>
+            <p className="font-sm font-medium tracking-wider text-gray-main space-y-2">Size Chart</p>
         </div>
          <div>
-            <h3>Company info</h3>
-            <p>About Laura’s Closet</p>
-            <p>Social Responsibility</p>
-            <p>Affiliate</p>
-            <p>Fashion Blogger</p>
+            <h3 className="text-sm font-semibold tracking-wide uppercase text-black1 pb-4">Customer care</h3>
+            <p className="font-sm font-medium tracking-wider text-gray-main space-y-2">Contact Us</p>
+            <p className="font-sm font-medium tracking-wider text-gray-main space-y-2">Payment</p>
+            <p className="font-sm font-medium tracking-wider text-gray-main space-y-2">Bonus Point</p>
+            <p className="font-sm font-medium tracking-wider text-gray-main space-y-2">Notices</p>
         </div>
     </div>
     <div>
-        <p>©2010-2022 Laura’s Closet All Rights Reserved</p>
-        <div className="flex">
-            <p>Privacy Center</p>
-            <p>Privacy & Cookie Policy</p>
-            <p>Manage Cookies</p>
+        <p className="mb-6 font-sm font-medium tracking-wider text-gray-main">©2010-2022 Laura’s Closet All Rights Reserved</p>
+        <div className="flex gap-3.5">
+            <p className="font-sm font-medium tracking-wider text-gray-main underline underline-offset-4">Privacy Center</p>
+            <p className="font-sm font-medium tracking-wider text-gray-main underline underline-offset-4">Privacy & Cookie Policy</p>
+            <p className="font-sm font-medium tracking-wider text-gray-main underline underline-offset-4">Manage Cookies</p>
             </div>
-        <div className="flex">
-            <p>Terms & Conditions</p>
-            <p>Copyright Notice</p>
-            <p>Imprint</p>
+        <div className="flex gap-3.5">
+            <p className="font-sm font-medium tracking-wider text-gray-main underline underline-offset-4">Terms & Conditions</p>
+            <p className="font-sm font-medium tracking-wider text-gray-main underline underline-offset-4">Copyright Notice</p>
+            <p className="font-sm font-medium tracking-wider text-gray-main underline underline-offset-4">Imprint</p>
         </div>
     </div>
-    </>
+    </div>
     )}

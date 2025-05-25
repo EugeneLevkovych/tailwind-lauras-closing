@@ -1,5 +1,3 @@
-
-
 export default function Card({ productObj }) {
     return (
     <li className="relative h-[30.7rem] w-full sm:w-[calc((100%-20px)/2)] xl:w-[calc((100%-40px)/3)] border border-solid">
@@ -16,9 +14,9 @@ export default function Card({ productObj }) {
                <p className="text-lg font-semibold text-price-black">{productObj.price}</p>
                <p className="text-lg font-semibold line-through text-gray-lighter">{productObj.price}</p>
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col gap-2">
                <p className="text-gray-darker">24 otders</p>
-               <p className="text-xs bg-back-arrivals-black text-white px-3">New Arrivals</p>
+               <p className="h-5 w-[5.9rem] text-xs bg-back-arrivals-black text-white px-3 py-[3px]">New Arrivals</p>
             </div>
           </div>
          </div>  
