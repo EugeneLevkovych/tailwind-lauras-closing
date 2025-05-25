@@ -1,6 +1,5 @@
 // import MasterCard from "../assets/mastercard.svg";
 
-
 export default function WeAccept() {
     return (
         <div className="flex flex-wrap gap-2">
