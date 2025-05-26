@@ -8,7 +8,7 @@ import Size from "./Size";
 export default function SideBar() {
 
     return (
-        <div className="flex flex-col gap-[3.3rem] max-w-84 w-full px-6 py-10 bg-white-dark">
+        <div className="hidden lg:flex flex-col gap-[3.3rem] max-w-84 w-full px-6 py-10 bg-white-dark">
            <PricesRange />
            <Filters />
            <Brands />

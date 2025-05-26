@@ -22,7 +22,7 @@ const [filterChecks, setFilterChecks] = useState({
     return (
 <div>
     <p className="font-semibold tracking-wide uppercase text-gray1 mb-8">Categories</p>
-    <form className="flex flex-col gap-y-4.5 text-sm">
+    <form className="space-y-5">
           <Checkbox name={'dresses'} id={'dresses-id'} label={'Dresses'} checked={filterChecks.dresses} onChange={handleFilterChange} />  
           <Checkbox name={'tops'} id={'tops-id'} label={'Tops'} checked={filterChecks.tops} onChange={handleFilterChange} />  
           <Checkbox name={'lingerie_lounge_wear'} id={'lingerie_lounge_wear-id'} label={'Lingerie & Lounge Wear'} checked={filterChecks.lingerie_lounge_wear} onChange={handleFilterChange} />  

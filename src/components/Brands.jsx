@@ -28,7 +28,7 @@ export default function Brands() {
     return (
 <div>
     <p className="font-semibold tracking-wide uppercase text-gray1 mb-8">Brands</p>
-    <form className="flex flex-col gap-y-4.5 text-sm">
+    <form className="space-y-5">
        <Checkbox name={'hm'} id={'hm-id'} label={'H&M'} checked={filterChecks.hm} onChange={handleFilterChange} />
        <Checkbox name={'mark_spencer'} id={'mark_spencer-id'} label={'Mark & Spencer'} checked={filterChecks.mark_spencer} onChange={handleFilterChange} />
        <Checkbox name={'victorias_secret'} id={'victorias_secret-id'} label={'Victoria’s Secret'} checked={filterChecks.victorias_secret} onChange={handleFilterChange} />

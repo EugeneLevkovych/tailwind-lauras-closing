@@ -21,7 +21,7 @@ export default function Filters() {
     return (
 <div>
     <p className="font-semibold tracking-wide uppercase text-gray1 mb-8">Filters</p>
-    <form className="flex flex-col gap-y-4.5 text-sm">  
+    <form className="space-y-5">  
      <Checkbox name={'women'} id={'women-id'} label={'Women'} checked={filterChecks.women} onChange={handleFilterChange} />   
      <Checkbox name={'ladies'} id={'ladies-id'} label={'Ladies'} checked={filterChecks.ladies} onChange={handleFilterChange} />  
      <Checkbox name={'girls'} id={'girls-id'} label={'Girls'} checked={filterChecks.girls} onChange={handleFilterChange} />  
