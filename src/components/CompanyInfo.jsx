@@ -1,7 +1,7 @@
 export default function CompanyInfo() {
     return (
 <>
-    <div className="flex gap-14 max-w-[36.25rem] w-full mb-[7.6rem]">  
+    <div className="flex flex-wrap lg:flex-nowrap gap-5 sm:gap-20 md:gap:30 lg:gap-10 xl:gap-14 max-w-[36.25rem] w-full mb-5 lg:mb-[7.6rem]">  
         <div>
             <h3 className="text-sm font-semibold tracking-wide uppercase text-black1 pb-4">Company info</h3>
             <p className="font-sm font-medium tracking-wider text-gray-main space-y-2 whitespace-nowrap">About Laura’s Closet</p>
@@ -39,4 +39,4 @@ export default function CompanyInfo() {
         </div>
     </div>
 </>
-    )}
+)}
