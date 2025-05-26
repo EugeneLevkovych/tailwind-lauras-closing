@@ -1,7 +1,7 @@
 export default function CompanyInfo() {
     return (
-        <div className="mb-auto">
-    <div className="flex gap-14 max-w-[36.25rem] w-full mb-28">  
+<>
+    <div className="flex gap-14 max-w-[36.25rem] w-full mb-[7.6rem]">  
         <div>
             <h3 className="text-sm font-semibold tracking-wide uppercase text-black1 pb-4">Company info</h3>
             <p className="font-sm font-medium tracking-wider text-gray-main space-y-2 whitespace-nowrap">About Laura’s Closet</p>
@@ -27,7 +27,7 @@ export default function CompanyInfo() {
     </div>
     <div>
         <p className="mb-6 font-sm font-medium tracking-wider text-gray-main">©2010-2022 Laura’s Closet All Rights Reserved</p>
-        <div className="flex gap-3.5">
+        <div className="flex gap-3.5 mb-4">
             <p className="font-sm font-medium tracking-wider text-gray-main underline underline-offset-4">Privacy Center</p>
             <p className="font-sm font-medium tracking-wider text-gray-main underline underline-offset-4">Privacy & Cookie Policy</p>
             <p className="font-sm font-medium tracking-wider text-gray-main underline underline-offset-4">Manage Cookies</p>
@@ -38,5 +38,5 @@ export default function CompanyInfo() {
             <p className="font-sm font-medium tracking-wider text-gray-main underline underline-offset-4">Imprint</p>
         </div>
     </div>
-    </div>
+</>
     )}

@@ -10,4 +10,4 @@ export default function PricesRange() {
       </div>
     </div>
 </div>
-    )}
+)}

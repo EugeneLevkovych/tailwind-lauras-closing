@@ -28,5 +28,5 @@ const [filterChecks, setFilterChecks] = useState({
         <Checkbox name={'plus_sexy_size'} id={'plus_sexy_size-id'} label={'Plus Sexy Size'} checked={filterChecks.plus_sexy_size} onChange={handleFilterChange} />         
     </form>
 </div>
-    )
+)
 }
