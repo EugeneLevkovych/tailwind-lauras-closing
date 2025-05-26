@@ -7,10 +7,10 @@ export default function Card({ productObj }) {
        </svg>
      </div>
         <img className="h-[21.4rem] max-w-[18.7rem] w-full" src={productObj.photoName} alt="Girl" />
-         <div className="p-4 flex flex-col justify-between h-1/3">
+         <div className="p-4">
           <p className="text-sm font-medium tracking-wide leading-[1.5] text-gray1">{productObj.name}</p>
           <div className="flex justify-between">
-            <div className="flex flex-col">
+            <div className="flex flex-col gap-1">
                <p className="text-lg font-semibold leading-[1.7] text-black1">{productObj.price}</p>
                <p className="text-lg line-through text-gray-lighter">{productObj.price}</p>
             </div>
