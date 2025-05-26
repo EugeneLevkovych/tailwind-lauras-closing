@@ -8,13 +8,13 @@ export default function Header() {
     <header className="bg-white-dark">
       <div className="flex flex-wrap items-center py-7 container mx-auto px-4">
         <a href="#">
-          <h1 className="text-2xl" >Laura’s Closet</h1>
+          <h1 className="text-2xl font-medium tracking-wide text-black1" >Laura’s Closet</h1>
         </a>
       <div className="relative ml-auto mr-auto">
         <div className="absolute bottom-2 left-0">
           <FaMagnifyingGlass className="text-gray-400"/>
         </div>
-          <input type="text" id="search" placeholder="Search for an item..." className="lg:max-w-70 pl-8 py-1 text-base border-b-1 border-gray-400 focus:border-red-light outline-none transition-colors" />
+          <input type="text" id="search" placeholder="Search for an item..." className="lg:max-w-70 pl-8 py-1 text-gray-lighter tracking-wide border-b-1 border-gray-400 focus:border-red-light outline-none transition-colors" />
       </div>
       <StoreList />
       <svg className="hidden lg:block h-6 w-6 ml-2 fill-black1">
