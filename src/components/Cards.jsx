@@ -6,7 +6,7 @@ const products = PRODUCTS_DATA;
 
 
     return (
-        <ul className="flex flex-wrap gap-4 lg:pl-4">
+        <ul className="flex flex-wrap gap-5 lg:pl-4">
             {products.map((product) => {
             return <Card productObj={product} key={product.id} />})}
         </ul>
