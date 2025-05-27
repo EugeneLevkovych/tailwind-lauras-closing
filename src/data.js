@@ -69,5 +69,8 @@ export const GOODS = ["New Arrivals", "#Fresh", "Dresses", "Tops", "Jackets", "L
 
 export const STORE_LIST_DATA = ["Store", "Account", "Wish List", "Basket"];
 
+export const COMPANY_INFO = ["About Laura’s Closet","Social Responsibility","Affiliate","Fashion Blogger"];
 
+export const HELP_SUPPORT = ["Shipping Info","Returns","How to Order","How to Track","Size Chart"];
 
+export const CUSTOMER_CARE = ["Contact Us","Payment","Bonus Point","Notices"];
