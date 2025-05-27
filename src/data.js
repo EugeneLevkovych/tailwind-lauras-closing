@@ -74,3 +74,7 @@ export const COMPANY_INFO = ["About Laura’s Closet","Social Responsibility","A
 export const HELP_SUPPORT = ["Shipping Info","Returns","How to Order","How to Track","Size Chart"];
 
 export const CUSTOMER_CARE = ["Contact Us","Payment","Bonus Point","Notices"];
+
+export const TERMS_ITEMS1 = ["Privacy Center","Privacy & Cookie Policy","Manage Cookies"];
+
+export const TERMS_ITEMS2 = ["Terms & Conditions","Copyright Notice","Imprint"];
