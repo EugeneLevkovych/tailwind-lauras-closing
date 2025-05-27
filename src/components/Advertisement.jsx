@@ -1,6 +1,6 @@
 export default function Advertisement() {
     return (
-    <div className="flex container mx-auto px-4">
+    <div className="flex md:container mx-auto md:px-4">
       <div className="flex text-white w-full bg-stone-800 overflow-hidden">
           <div className="p-6 mr-auto">
             <h2 className="text-xl font-bold mb-4">Ladies Top</h2>
