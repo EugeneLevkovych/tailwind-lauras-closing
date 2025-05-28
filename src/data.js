@@ -52,7 +52,7 @@ export const PRODUCTS_DATA = [
         photoName: girl7,
     },
          {
-        name: "Duis aute irure dolor in reprehenderit ",
+        name: "Duis aute irure dolor in reprehenderit metus bibendum",
         price: "$ 79.99",
         id: 8,
         photoName: girl8,
