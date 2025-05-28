@@ -1,8 +1,9 @@
-import Brands from "./Brands";
-import Categories from "./Categories";
-import Filters from "./Filters";
+import FilterGroup from "./FilterGroup";
 import PricesRange from "./PricesRange";
-import Size from "./Size";
+import { categoryFilters } from "../data";
+import { categoryBrands } from "../data";
+import { categoryCategories } from "../data";
+import { categorySize } from "../data";
 
 
 export default function SideBar() {
@@ -10,10 +11,10 @@ export default function SideBar() {
     return (
         <div className="hidden lg:flex flex-col gap-[3.3rem] max-w-84 w-full px-6 py-10 bg-white-dark">
            <PricesRange />
-           <Filters />
-           <Brands />
-           <Categories />
-           <Size />
+           <FilterGroup  name={'Filters'} options={categoryFilters} />
+           <FilterGroup  name={'Brands'} options={categoryBrands} />
+           <FilterGroup  name={'Categories'} options={categoryCategories} />
+           <FilterGroup  name={'Categories'} options={categorySize} />
         </div>
     )
 }

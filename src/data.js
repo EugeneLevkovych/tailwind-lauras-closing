@@ -71,10 +71,44 @@ export const STORE_LIST_DATA = ["Store", "Account", "Wish List", "Basket"];
 
 export const COMPANY_INFO = ["About Laura’s Closet","Social Responsibility","Affiliate","Fashion Blogger"];
 
-export const HELP_SUPPORT = ["Shipping Info","Returns","How to Order","How to Track","Size Chart"];
+export const HELP_SUPPORT = ["Shipping Info", "Returns","How to Order","How to Track","Size Chart"];
 
-export const CUSTOMER_CARE = ["Contact Us","Payment","Bonus Point","Notices"];
+export const CUSTOMER_CARE = ["Contact Us", "Payment", "Bonus Point", "Notices"];
 
-export const TERMS_ITEMS1 = ["Privacy Center","Privacy & Cookie Policy","Manage Cookies"];
+export const TERMS_ITEMS1 = ["Privacy Center", "Privacy & Cookie Policy", "Manage Cookies", "Terms & Conditions","Copyright Notice","Imprint"];
 
-export const TERMS_ITEMS2 = ["Terms & Conditions","Copyright Notice","Imprint"];
+export const categoryFilters = [
+  { name: 'women', id: 'women-id', label: 'Women' },
+  { name: 'ladies', id: 'ladies-id', label: 'Ladies' },
+  { name: 'girls', id: 'lgirls', label: 'Girls' },
+  { name: 'babies', id: 'babies-id', label: 'Babies' },
+];
+
+export const categoryBrands = [
+  { name: 'hm', id: 'hm-id', label: 'H&M' },
+  { name: 'mark_spencer', id: 'mark_spencer-id', label: 'Mark & Spencer' },
+  { name: 'victorias_secret', id: 'victorias_secret-id', label: 'Victoria’s Secret' },
+  { name: 'dior', id: 'dior-id', label: 'Dior' },
+  { name: 'gucci', id: 'gucci-id', label: 'Gucci' },
+  { name: 'fendi', id: 'fendi-id', label: 'Fendi' },
+  { name: 'prada', id: 'prada-id', label: 'Prada' },
+  { name: 'versaci', id: 'versaci-id', label: 'Versaci' },
+  { name: 'dolce_gabbana', id: 'dolce_gabbana-id', label: 'Dolce & Gabbana' },
+  { name: 'zara', id: 'zara-id', label: 'Zara' },
+  { name: 'shanel', id: 'shanel-id', label: 'Shanel' },
+];
+
+export const categoryCategories = [
+  { name: 'dresses', id: 'dresses-id', label: 'Dresses' },
+  { name: 'tops', id: 'tops-id', label: 'Tops' },
+  { name: 'lingerie_lounge_wear', id: 'lingerie_lounge_wear-id', label: 'Lingerie & Lounge Wear' },
+  { name: 'blouse', id: 'blouse-id', label: 'Blouse' },
+  { name: 'vintage', id: 'vintage-id', label: 'Vintage' },
+];
+
+export const categorySize = [
+  { name: 'medium', id: 'medium-id', label: 'Medium' },
+  { name: 'Large', id: 'Large-id', label: 'Large' },
+  { name: 'plus_size', id: 'plus_size-id', label: 'Plus Size' },
+  { name: 'sexy_plus_size', id: 'sexy_plus_size-id', label: 'Sexy Plus Size' },
+];

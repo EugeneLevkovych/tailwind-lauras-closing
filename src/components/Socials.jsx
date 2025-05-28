@@ -2,7 +2,7 @@ export default function Socials() {
     return (
     <div className="flex justify-between mb-10">
         <div>
-            <p className="text-sm font-semibold tracking-wide uppercase text-black1 pb-4">Socials</p>
+            <p className="text-sm font-semibold tracking-wide uppercase text-black1 mb-4">Socials</p>
           <div className="flex gap-4">
             <svg className="size-8 fill-gray1">
                 <use href="./sprite.svg#icon-facebook"></use>
