@@ -112,3 +112,5 @@ export const categorySize = [
   { name: 'plus_size', id: 'plus_size-id', label: 'Plus Size' },
   { name: 'sexy_plus_size', id: 'sexy_plus_size-id', label: 'Sexy Plus Size' },
 ];
+
+export const ICONS = ["./sprite.svg#icon-facebook", "./sprite.svg#icon-twitter", "./sprite.svg#icon-instagram", "./sprite.svg#icon-tiktok", "./sprite.svg#icon-snapchat"];

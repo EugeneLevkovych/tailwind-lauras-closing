@@ -1,11 +1,8 @@
-// import MasterCard from "../assets/mastercard.svg";
-
 export default function WeAccept() {
     return (
     <div>
         <p className="text-sm font-semibold tracking-wider uppercase text-gray1 mb-6">We accept</p>
         <div className="flex flex-wrap gap-2">   
-            {/* <img src={MasterCard} className="h-20 w-20"/> */}
             <svg className="w-12.5 h-8">
                 <use href="./sprite.svg#icon-MasterCard"></use>
             </svg>

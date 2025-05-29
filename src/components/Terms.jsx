@@ -1,6 +1,5 @@
 import {TERMS_ITEMS1} from "../data";
 
-
 export default function Terms() {
     return (
         <div className="flex flex-wrap gap-3.5 mb-2.5">

@@ -5,7 +5,6 @@ export default function PageSelect() {
                 <div className="border-none  bg-gray-lightest size-[2rem]">
                     <svg className="stroke-gray1 fill-transparent h-8 w-8">
                         <use href="./sprite.svg#icon-prev"></use>
-                        {/* <path d="M12 8l8 8-8 8" /> */}
                     </svg>
                 </div>
                 <button className="border-1 text-gray-darker border-gray-lightest size-[2rem]" type="button">1</button>

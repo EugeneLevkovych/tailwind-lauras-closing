@@ -1,4 +1,3 @@
-
 import Company from "./Company";
 import SignUp from "./SignUp";
 import Socials from "./Socials";

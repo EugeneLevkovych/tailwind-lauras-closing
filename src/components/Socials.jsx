@@ -1,35 +1,20 @@
+import SvgRow from "./SvgRow";
+import { ICONS } from "../data";
+
 export default function Socials() {
     return (
     <div className="flex justify-between mb-10">
         <div>
             <p className="text-sm font-semibold tracking-wide uppercase text-black1 mb-4">Socials</p>
           <div className="flex gap-4">
-            <svg className="size-8 fill-gray1">
-                <use href="./sprite.svg#icon-facebook"></use>
-            </svg>
-             <svg className="size-8 fill-gray1">
-                <use href="./sprite.svg#icon-twitter"></use>
-            </svg>
-             <svg className="size-8 fill-gray1">
-                <use href="./sprite.svg#icon-instagram"></use>
-            </svg>
-             <svg className="size-8 fill-gray1">
-                <use href="./sprite.svg#icon-tiktok"></use>
-            </svg>
-             <svg className="size-8 fill-gray1">
-                <use href="./sprite.svg#icon-snapchat"></use>
-            </svg>
+           {ICONS.map(item => <SvgRow href={item}/>)}
           </div>
         </div>
         <div>
             <p className="text-sm font-semibold tracking-wide uppercase text-black1 pb-4">Platforms</p>
-          <div className="flex gap-4"> 
-             <svg className="size-8 fill-gray1">
-                <use href="./sprite.svg#icon-android"></use>
-            </svg>
-             <svg className="size-8 fill-gray1">
-                <use href="./sprite.svg#icon-apple"></use>
-            </svg>
+          <div className="flex gap-4">
+            <SvgRow href={"./sprite.svg#icon-android"}/> 
+            <SvgRow href={"./sprite.svg#icon-apple"}/> 
           </div>
         </div>
     </div>

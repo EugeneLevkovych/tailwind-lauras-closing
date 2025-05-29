@@ -14,7 +14,7 @@ export default function SideBar() {
            <FilterGroup  name={'Filters'} options={categoryFilters} />
            <FilterGroup  name={'Brands'} options={categoryBrands} />
            <FilterGroup  name={'Categories'} options={categoryCategories} />
-           <FilterGroup  name={'Categories'} options={categorySize} />
+           <FilterGroup  name={'Size'} options={categorySize} />
         </div>
     )
 }
