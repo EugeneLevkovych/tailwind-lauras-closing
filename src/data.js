@@ -75,7 +75,7 @@ export const HELP_SUPPORT = ["Shipping Info", "Returns","How to Order","How to T
 
 export const CUSTOMER_CARE = ["Contact Us", "Payment", "Bonus Point", "Notices"];
 
-export const TERMS_ITEMS1 = ["Privacy Center", "Privacy & Cookie Policy", "Manage Cookies", "Terms & Conditions","Copyright Notice","Imprint"];
+export const TERMS_ITEMS = ["Privacy Center", "Privacy & Cookie Policy", "Manage Cookies", "Terms & Conditions","Copyright Notice","Imprint"];
 
 export const categoryFilters = [
   { name: 'women', id: 'women-id', label: 'Women' },
