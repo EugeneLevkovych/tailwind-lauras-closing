@@ -1,7 +1,7 @@
 export default function Card({ productObj }) {
     return (
     <li className="relative h-[30.8rem] w-[18.5rem] xl:w-[calc((100%-40px)/3)] border border-solid border-gray2">
-     <div className="flex justify-center items-center absolute top-4 right-4 size-12 bg-black/30">
+     <div className="flex justify-center items-center absolute top-4 right-4 size-12 bg-black/30 cursor-pointer">
        <svg className="stroke-white fill-transparent size-6">
           <use href="./sprite.svg#icon-heart"></use>
        </svg>
@@ -16,7 +16,7 @@ export default function Card({ productObj }) {
             </div>
             <div className="flex flex-col gap-2">
                <p className="text-gray-darker">24 otders</p>
-               <p className="h-5 w-[5.9rem] text-xs bg-black2 text-white2 px-3 py-[3px]">New Arrivals</p>
+               <p className="h-5 w-[5.9rem] text-xs bg-black2 text-white2 px-3 py-[3px] cursor-pointer">New Arrivals</p>
             </div>
           </div>
          </div>  
