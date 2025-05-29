@@ -7,7 +7,7 @@ export default function Socials() {
         <div>
             <p className="text-sm font-semibold tracking-wide uppercase text-black1 mb-4">Socials</p>
           <div className="flex gap-4">
-           {ICONS.map(item => <SvgRow href={item}/>)}
+           {ICONS.map(item => <SvgRow key={item} href={item}/>)}
           </div>
         </div>
         <div>

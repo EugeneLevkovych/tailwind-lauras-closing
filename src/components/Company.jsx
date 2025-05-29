@@ -6,7 +6,7 @@ import Terms from "./Terms";
 
 export default function Company() {
     return (
-<>
+<div>
     <div className="flex flex-wrap lg:flex-nowrap justify-between mb-5 lg:mb-[7.7rem]"> 
         <CompanyList title="Company info" options={COMPANY_INFO} /> 
         <CompanyList title="Help & Support" options={HELP_SUPPORT} />
@@ -16,6 +16,6 @@ export default function Company() {
         <p className="font-sm font-medium tracking-wider text-gray-main mb-6">©2010-2022 Laura’s Closet All Rights Reserved</p>
         <Terms />
     </div>
-</>
+</div>
 )}
 
